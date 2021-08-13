@@ -1,3 +1,12 @@
 body{
   background-color: #64C9CF;
 }
+
+#time{
+  font-size: 4rem;
+  color: red;
+}
+
+#title{
+  font-size: 3rem;
+}

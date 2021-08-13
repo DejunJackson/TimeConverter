@@ -6,17 +6,19 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>Time Converter</h1>
+    <h1 id="title">Time Converter</h1>
     <p>This application converts time into words.</p>
+
+    <!-- This form takes input from user and submits it -->
     <form id="timeForm">
-      <label for="hour">Enter a number for the hour</label>
-      <input type="text" name="hour" id="hours" >
-
-      <label for="minutes">Enter a number for the minutes</label>
+      <label for="hour">Enter a valid number for the <strong>hour</strong></label>
+      <input type="text" name="hour" id="hours">
+      <label for="minutes">Enter a valid number for the <strong>minutes</strong></label>
       <input type="text" name="minutes" id="minutes">
-
     <input type="submit" value="Submit">
     </form>
+
+    <!-- This h1 is populated with the converted text upon submission -->
     <h1 id="time"></h1>
     <script src="app.js" charset="utf-8"></script>
   </body>
