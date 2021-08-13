@@ -10,6 +10,6 @@ To run it locally:
 
 1. Download folder
 
-2. Open downloaded folder in an IDE
+2. Open downloaded folder in an IDE like atom or VScode
 
 3. Copy and paste full path of the index.html file into a web browser
